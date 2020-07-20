@@ -1,0 +1,15 @@
+Cara Instalisasi laravel menggunakkan composer
+1.buka xampp-control lalu aktifkan/jalankan apache dan mysql
+Jika sudah diaktifkan selanjutnya kita buka command prompt(terminal)
+Sebelum itu pastikan koneksi internet agar saat menginstal nanti tidak error
+2.buka command prompt(terminal) lalu ketikan composer untuk melihat apakah composer sudah terinstal atau belum
+Jika composer nya sudah terinstal,lalu selanjutnya kita mulai untuk menginstal laravelnya menggunakkan composer
+3.buat direktori dimana letak project laravel
+Nya ingin kita buat,disini membuat project nya dalam folder htdocs,jadi masuk ke direktori htdocs, lalu htdocs sesuai dimana lokasinya masing'
+Ketik cd/"namaproject"
+4.kemudian kita instal laravel nya
+Ketikan perintah berikut untuk menginstall laravel nya=composer create-project --prefer-dist laravel/laravel myBlogLaravel atau sesuai nama project masing'
+5.Jika sudah selesai menginstal, ketik nama projectnya kembali menggunakan code "cd/nama project". 
+6.lalu jalankan project dengan perintah= php artisan serve
+7.jika sudah lalu akses alamat nya = http://localhost:8000 pada web browser jika sudah ada tampilan nya maka selesai
+8.selesai
